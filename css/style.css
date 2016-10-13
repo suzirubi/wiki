@@ -49,6 +49,7 @@ ul {
   font-weight: bold;
   color: black;
 }
+
 #feature img {
   float: left;
 }
@@ -63,6 +64,10 @@ ul {
   float: right;
   display: inline-block;
 }
+#picture {
+  text-align: center;
+
+}
 /* intro */
 .intro_main {
   width: 99%;
@@ -73,11 +78,27 @@ ul {
   padding: 10px;
   display: block;
 }
+.panel {
+  border-radius: 0%;
+}
+.panel-info {
+  background-color: #f5faff;
+}
+.panel-success {
+  background-color: mintcream;
+}
+.panel-warning {
+  background-color: lavender;
+  border-color: purple;
+}
+.panel-warning .panel-heading{
+  background-color: #ddcef2;
+}
 /* Sidebar */
 
 .sidebar {
   width:  15%;
-  height: 1000px;
+  height: 1380px;
   padding: 20px;
   float: left;
   background-color: #f6f6f6;
