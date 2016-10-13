@@ -9,12 +9,31 @@ a {
   }
 
 .container {
+  width: 97%;
   margin: 0px;
+  margin-right: 0px;
   padding: 0px;
 }
 .header {
+  background-color: #f6f6f6;
+  height: 87px;
+  width: 100%;
+  margin: auto;
 }
-
+#right_nav_header {
+  float: right;
+}
+#top_nav_header {
+  float: right;
+}
+.intro_main {
+  width: 95%;
+  margin: 10px;
+  border: 3px, solid green;
+  background-color: red;
+  height: 100px;
+  display: block;
+}
 /* Sidebar */
 
 .sidebar {
@@ -37,6 +56,9 @@ a {
 list-style: none;
 padding: 0;
 
+}
+.sidebar_item ul {
+  padding: 5px;
 }
 .sidebar_mainPage {
   margin-top: 30px;
