@@ -10,12 +10,16 @@ a {
   a:hover {
     text-decoration: underline;
   }
+ul {
+  padding: 0;
+}
 
 .container {
-  width: 97%;
+  display: inline-block;
+  width: 100%;
   margin: 0px;
   margin-right: 0px;
-  padding: 0px;
+
 }
 /* header */
 .header {
@@ -31,13 +35,37 @@ a {
   float: right;
 }
 /* pane */
-#pane {
-  width: 100%;
+.pane {
+  display: inline-block;
+  width: 85%;
   padding: 25px;
+}
+.pane img {
+  display: inline;
+  margin: 10px;
+}
+
+.pane h4 {
+  font-weight: bold;
+  color: black;
+}
+#feature img {
+  float: left;
+}
+#news img {
+  float: right;
+}
+#did img {
+  float: right;
+  display: inline-block;
+}
+#day img {
+  float: right;
+  display: inline-block;
 }
 /* intro */
 .intro_main {
-  width: 95%;
+  width: 99%;
   margin: 10px;
   border: .5px solid lightgrey;
   background-color: #f6f6f6;
@@ -48,7 +76,7 @@ a {
 /* Sidebar */
 
 .sidebar {
-  width:  0%;
+  width:  15%;
   height: 1000px;
   padding: 20px;
   float: left;
@@ -56,15 +84,15 @@ a {
   font-size: .9em;
   line-height: 1.5em;
 }
-.sidebar div {
-  border-bottom: .5px lightgrey solid;
-}
 .sidebar .logo {
   border-bottom: none;
 }
+.sidebar div {
+  border-bottom: .5px lightgrey solid;
+}
+
 .sidebar ul {
 list-style: none;
-padding: 0;
 
 }
 .sidebar_item ul {
